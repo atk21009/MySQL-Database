@@ -8,7 +8,7 @@ Each section will provide a link to a GitHub repository with better code example
 
 ## EER Diagram
 
-![image](imgs/EER_diagram.jpg)
+![image](imgs/EER_Diagram.jpg)
 
 ## Insert Transactions
 
@@ -18,7 +18,7 @@ In this next section, we demonstrate 4 simple transactions to easily input data 
 
 ![image](imgs/user.jpg)
 
-#### INPUTS
+#### Inputs
 
 - country_name
 - city_name
@@ -32,19 +32,52 @@ In this next section, we demonstrate 4 simple transactions to easily input data 
 
 #### Example call
 
-    call insert_data("USA", "Arizona", "123 Fake Street", "85142", "atk", "Password", "taylor@test.com", "Taylor", "Atkin");
+    call insert_data("USA", "Arizona", "123 Fake Street", "85142", "Taylor", "Password", "taylor@test.com", "Taylor", "Atkin");
 
 ### Orders Transaction
 
 ![image](imgs/orders.jpg)
 
+#### Inputs
+
+- username_in
+- email_in
+- product
+- quantity_ordered
+
+#### Example call
+
+    CALL orders("Test", "test@byui.edu", 4, 4);
+
 ### Posts Transactions
 
 ![image](imgs/posts.jpg)
 
+#### Inputs
+
+- username_in
+- email_in
+- image
+- address
+- caption_in
+
+#### Example Call
+
+    call create_posts("Test", "test@byui.edu", "img/TEST.png", 4, "HELLO WORLD!");
+
 ### Private Messages Transaction
 
 ![image](imgs/messasges.jpg)
+
+#### Inputs
+
+- user_from
+- user_to
+- message
+
+#### Example Call
+
+    call create_message(10, 11, "HEY FRIEND!");
 
 ## Read / Select Statements
 
