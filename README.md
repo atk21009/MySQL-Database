@@ -32,7 +32,7 @@ In this next section, we demonstrate 4 simple transactions to easily input data 
 
 #### Example call
 
-    call insert_data("USA", "Arizona", "123 Fake Street", "85142", "Taylor", "Password", "taylor@test.com", "Taylor", "Atkin");
+    CALL insert_data("USA", "Arizona", "123 Fake Street", "85142", "Taylor", "Password", "taylor@test.com", "Taylor", "Atkin");
 
 ### Orders Transaction
 
@@ -63,7 +63,7 @@ In this next section, we demonstrate 4 simple transactions to easily input data 
 
 #### Example Call
 
-    call create_posts("Test", "test@byui.edu", "img/TEST.png", 4, "HELLO WORLD!");
+    CALL create_posts("Test", "test@byui.edu", "img/TEST.png", 4, "HELLO WORLD!");
 
 ### Private Messages Transaction
 
@@ -77,7 +77,7 @@ In this next section, we demonstrate 4 simple transactions to easily input data 
 
 #### Example Call
 
-    call create_message(10, 11, "HEY FRIEND!");
+    CALL create_message(10, 11, "HEY FRIEND!");
 
 ## Read / Select Statements
 
